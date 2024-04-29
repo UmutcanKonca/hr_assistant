@@ -56,4 +56,4 @@ for blob in source_container_client.list_blobs():
         # Embedding'i Destination Blob Storage'e yükleyin
         destination_blob_client.upload_blob(embedding_json, overwrite=True)
 
-print("İşlem tamamlandı: CV dosyalarının embeddingleri başarıyla aktarıldı.")
+print("İşlem tamamlandı: CV dosyalarının embeddingleri başarıyla aktarıldı...")
